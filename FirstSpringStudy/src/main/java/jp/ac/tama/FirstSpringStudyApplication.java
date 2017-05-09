@@ -20,6 +20,7 @@ public class FirstSpringStudyApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
+		// InputService の ScanInput を呼び出し、その結果を result に入れて表示してる
 		val result = inputService.ScanInput(System.in);
 		System.out.println(result);
 	}
